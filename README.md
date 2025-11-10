@@ -7,7 +7,7 @@ Esta herramienta democratiza el depliegue de aplicaciones, transformando proceso
 > [!IMPORTANT]
 > Esta herramienta no trata de ser un reemplazo ni de desarrolladores, ni muchos menos Docker (lo contrario, existe gracias a Docker). En caso de preferirlo, siempre es recomendable usar la herramienta nativa en caso de no confíar en otras soluciones. Al final del días, este proyecto existe simplemente para facilitar el desarrollo.
 
-FASE 1: LO MÀS BASICO DEL SISTEMA
+FASE 1: LO MÁS BASICO DEL SISTEMA
 
 1.1. SISTEMA DE EVENTOS Y PIPELINE
 
