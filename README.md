@@ -114,19 +114,11 @@ FASE 3: INTERFAZ GRÁFICA
   - Generación de config SSL automática
   - Load balancing configuration
   - Health checks de endpoints
-- Integración LSP Docker
+- Integración de Easy-Docker y Easy-Docker-Compose (configura tus proyectos sin interactuar con un IDE)
   - Client para Dockerfile LSP
   - Auto-completado en editores
   - Validación en tiempo real
   - Quick-fixes automáticos
-
-4.2. SISTEMA DE PLUGINS
-
-- Arquitectura de Plugins
-  - Sistema de carga dinámica de plugins
-  - API para desarrolladores de plugins
-  - Sandboxing para seguridad
-  - Sistema de distribución de plugins
 
 🧪 FASE 5: TESTING Y CALIDAD
 
