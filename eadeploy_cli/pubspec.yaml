@@ -1,0 +1,31 @@
+name: eadeploy_cli
+description: A CLI-tool version of Easy-Auto-Deploy for manage easily containers
+version: 1.0.0-dev
+repository: https://github.com/CatHood0/Easy-Auto-Deploy
+
+environment:
+  sdk: ">=3.4.3 <4.0.0" 
+
+# Add regular dependencies here.
+dependencies:
+  path: ^1.9.0
+  # for manage container easily
+  args: ^2.7.0
+  path_provider: ^2.1.5
+  isar: ^3.1.0+1
+  shared_preferences: ^2.5.3
+  system_resources: ^1.6.0
+  uuid: ^4.5.2
+
+  # since docker2 had meta pinned to 1.17
+  # and path_provider had meta pinned to 1.16
+  #
+  # We just prefer maintaining up to day the repo copy
+  # and using versions that avoid causing version conflicts
+  docker2:
+    path: ./packages/docker2
+
+dev_dependencies:
+  lints: ^6.0.0
+  test: ^1.25.6
+  isar_generator: ^3.1.0+1
