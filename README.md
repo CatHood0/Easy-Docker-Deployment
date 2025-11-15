@@ -7,7 +7,7 @@ This tool democratizes application deployment, transforming complex Docker and D
 > [!IMPORTANT]
 > This tool is not intended to be a replacement for developers, much less Docker (on the contrary, it exists thanks to Docker). If preferred, it is always recommended to use the native tool if you do not trust other solutions. At the end of the day, this project exists simply to facilitate development.
 
-_All changes that are still in the development and testing phase are being made in: [develop](https://github.com/CatHood0/Easy-Auto-Deploy/tree/develop)_
+_All changes that are still in the development and testing phase are being made in: [develop](https://github.com/CatHood0/Easy-Auto-Deploy/tree/origin/develop)_
 
 # MAIN FEATURES I'M FOCUSED ON
 

@@ -1,0 +1,27 @@
+#!/bin/bash
+
+echo "🌍 Instalando Easy-Auto-Deploy CLI-tool"
+echo "==================================="
+
+# Detectar entorno
+if [[ "$OSTYPE" == "linux-gnu"* ]]; then
+    echo "🐧 Entorno Linux detectado"
+    ./install.sh
+elif [[ "$OSTYPE" == "darwin"* ]]; then
+    echo "🍎 Entorno macOS detectado" 
+    ./install.sh
+elif [[ "$OSTYPE" == "cygwin" ]] || [[ "$OSTYPE" == "msys" ]] || [[ -n "$WSL_DISTRO_NAME" ]]; then
+    echo "🪟 Entorno Windows (WSL/Git Bash) detectado"
+    
+    # En WSL, usar el script Linux
+    if [[ -n "$WSL_DISTRO_NAME" ]]; then
+        ./install.sh
+    else
+      echo "Para instalar esta herramienta, debes asegurate de usar el instalador proporcionado en https://github.com/CatHood0/Easy-Auto-Deploy/releases"
+    fi
+else
+    echo "❌ Sistema no soportado: $OSTYPE"
+    echo "💡 Ejecuta manualmente:"
+    echo "   Linux/macOS: ./install.sh"
+    exit 1
+fi
